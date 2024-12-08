@@ -18,6 +18,10 @@ window.addEventListener('load', () => {
     });
 });
 
+function openwa(){
+    window.open("https://web.whatsapp.com/send/?phone=6285693660473&text=Hello+Bub%2C+I+would+love+to+make+a+reservation+for+Birthday+Dinner+%26+Anniversary+with+you+%3A%0A-+Date%3A+%5BInsert+Date%5D%0A-+Time%3A+%5BInsert+Time%5D%0A-+Dresscode%3A+%5BInsert+ideas+dresscode%5D%0A%0AVery+Happy+to+see+you+soon%2C+Love+you");
+}
+
 
 // animation timeline
 const animationTimeline = () => {
@@ -269,4 +273,6 @@ const animationTimeline = () => {
     replyBtn.addEventListener("click", () => {
         tl.restart();
     });
+
+    
 }
